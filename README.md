@@ -1,4 +1,9 @@
 
+![alt text](https://github.com/lajawanti/tip-calculator/blob/master/src/image/project.JPG?raw=false) 
+
+# Tip Calculator 
+- Using Class component and state-variables
+- Using Functional component and react-hooks.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
