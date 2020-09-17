@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+    text-align: center;
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_heading {
+    font-size: calc(10px + 2vmin);
+    padding-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tip-background {
+  background-image: url("https://workingholidayincanada.com/wp-content/uploads/2018/11/Tip-Jar-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px; 
+  height: 580px;
+  margin-left: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  width: 360px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 20px;
+  outline-style: none;
+  border: 1.5px solid #A9A9A9;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 13px;
+  color: rgb(102, 101, 101);
+  margin-left: 11px;
+  margin-top: -5px;
+  letter-spacing: 0.3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-grad {
+  width: 130px;
+  height: 40px;
+  color:white;
+  letter-spacing: 1.8px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB 51%, #1F1C2C 100%);
+  cursor: pointer;
+}
+
+
+
+.btn-grad:hover {
+  background-position: right center; 
+}
+
+.tip-actual-div {
+  position: absolute;
+  left: 860px;
+  top: 120px;
 }
